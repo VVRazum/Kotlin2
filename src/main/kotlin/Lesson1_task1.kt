@@ -4,4 +4,3 @@ fun main() {
 
     println(thanksPhrase)
 }
-
