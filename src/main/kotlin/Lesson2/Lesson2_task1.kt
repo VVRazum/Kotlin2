@@ -4,8 +4,9 @@ fun main() {
     val studentB = 4
     val studentC = 3
     val studentD = 5
+    val sumStudents = 4
 
-    val summary: Float = (studentA + studentB + studentC + studentD) / 4f
+    val summary = (studentA + studentB + studentC + studentD) / sumStudents.toFloat()
 
     println(summary)
 }
