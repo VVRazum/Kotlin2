@@ -1,11 +1,15 @@
 fun main() {
 
-    val startTotalMinutes = 9 * 60 + 39
-    val finishTotalMinutes = startTotalMinutes + 457
-    val finishHours = finishTotalMinutes / 60
-    val finishMinutes = finishTotalMinutes % 60
+    val startHour = 9
+    val startMinutes = 39
+    val minutesPerHour = 60
+    val minutesInTrip = 457
+
+    val startTotalMinutes = startHour * minutesPerHour + startMinutes
+    val finishTotalMinutes = startTotalMinutes + minutesInTrip
+    val finishHours = finishTotalMinutes / minutesPerHour
+    val finishMinutes = finishTotalMinutes % minutesPerHour
 
     println("$finishHours:$finishMinutes")
-    //Данную историю пришлось гуглить. В твоей подаче в теории на ютубе этого нет. Не понятно, как решить по другому. Возможно тут другой вариант можно использовать
 }
 
