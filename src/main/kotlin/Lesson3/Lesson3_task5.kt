@@ -6,6 +6,7 @@ fun main() {
     val finishStep = stepPars[1]
     val numberStep = stepPars[2]
 
+
     println("$startStep\n$finishStep\n$numberStep")
 
 }
