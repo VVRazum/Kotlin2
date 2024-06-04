@@ -7,6 +7,9 @@ fun main() {
     val surnameSecondary = "Сидорова"
     val ageSecondary = 22
 
-    println("$surnamePrimary $namePrimary $secondNamePrimary, $agePrimary")
-    println("$surnameSecondary $namePrimary $secondNamePrimary, $ageSecondary")
+    var finalMsg = ("$surnamePrimary $namePrimary $secondNamePrimary, $agePrimary")
+    println(finalMsg)
+
+    finalMsg = ("$surnameSecondary $namePrimary $secondNamePrimary, $ageSecondary")
+    println(finalMsg)
 }
