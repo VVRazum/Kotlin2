@@ -1,6 +1,6 @@
 fun main() {
 
-//Ходят чертные
+//Ходят черные
     var startPos = "E2"
     var finishPos = "E4"
     var numMove = 1
