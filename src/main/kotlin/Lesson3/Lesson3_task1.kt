@@ -1,16 +1,14 @@
 fun main() {
 
-    val year = 1961
-    var hour = "09"
-    var minute = "07"
+    val userName = "Педро"
+    val dayWelcome = "Добрый день, уважаемый"
+    val eveWelcome = "Добрый вечер, уважаемый"
 
-    println(year)
-    println(hour)
-    println(minute)
+    var welcomeMsg = ("$dayWelcome $userName")
+    println(welcomeMsg)
 
-    hour = "10:"
-    minute = "55"
+    welcomeMsg = ("$eveWelcome $userName")
+    println(welcomeMsg)
 
-    println(hour + minute)
+
 }
-
