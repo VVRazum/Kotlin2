@@ -11,9 +11,18 @@ fun main() {
     val seven = startNumber * 7
     val eight = startNumber * 8
     val nine = startNumber * 9
+    val finalString = """
+                        |$startNumber x 1 = $one
+                         |$startNumber x 2 = $two
+                         |$startNumber x 3 = $three
+                         |$startNumber x 4 = $four
+                         |$startNumber x 5 = $five
+                         |$startNumber x 6 = $six
+                         |$startNumber x 7 = $seven
+                         |$startNumber x 8 = $eight
+                         |$startNumber x 9 = $nine""".trimMargin()
 
-    println("$startNumber x 1 = $one\n$startNumber x 2 = $two\n$startNumber x 3 = $three\n$startNumber x 4 = $four\n$startNumber x 5 = $five\n" +
-            "$startNumber x 6 = $six\n$startNumber x 7 = $seven\n$startNumber x 8 = $eight\n$startNumber x 9 = $nine")
+    println(finalString)
 
 }
 
